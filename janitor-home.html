@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <title>Classes</title>
+  <title>Gym Booking System</title>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +28,6 @@
 <body>
 
   <section id="nav">
-    <div class="container-fluid">
 
       <nav class="navbar navbar-expand-md navbar-light">
         <a class="navbar-brand" href="#">
@@ -42,80 +41,35 @@
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link active" href="index.html">Classes <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">Classes</a>
             <a class="nav-item nav-link" href="#">Facilities</a>
+            <a class="nav-item nav-link" href="#">Cleaning</a>
           </div>
         </div>
 
         <div class="login">
-          <a href="login.html" class="login btn btn-dark" type="button">Sign In</a>
+          <a href="login.html" class="login btn btn-dark" type="button">Sign Out</a>
         </div>
       </nav>
-    </div>
+
   </section>
   <section id="about">
 
     <div class="welcome row">
-      <div class="col col-lg-12">
-        <h1>View Available Classes</h1>
+      <div class="col col-12">
+        <h1><span style="color: black">Welcome</span> (Janitor Name Here)</h1>
       </div>
-      <!-- Search form -->
-      <form class="form-inline d-flex justify-content-center md-form form-sm active-cyan-2 mt-2">
-        <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search" aria-label="Search">
-        <i class="fas fa-search" aria-hidden="true"></i>
-      </form>
-    </div>
-
-
-
-
-
-    <div class="display">
 
       <div class="card-deck">
         <div class="card">
-          <img class="card-img-top" src="images/dog-img.jpg" alt="Card image cap">
+          <img class="card-img-top home-img" src="images/cleaning.jpg" alt="Card image cap">
           <div class="card-body">
-            <h3 class="card-title">Card title</h3>
-            <div class="card-text">
-              <h5>Data title</h5>
-              <p>Data info</p>
-              <h5>Data title</h5>
-              <p>Data info</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <img class="card-img-top" src="images/dog-img.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h3 class="card-title">Card title</h3>
-            <div class="card-text">
-              <h5>Data title</h5>
-              <p>Data info</p>
-              <h5>Data title</h5>
-              <p>Data info</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <img class="card-img-top" src="images/dog-img.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h3 class="card-title">Card title</h3>
-            <div class="card-text">
-              <h5>Data title</h5>
-              <p>Data info</p>
-              <h5>Data title</h5>
-              <p>Data info</p>
-            </div>
+            <a href="janitor-schedule.html" class="btn btn-lg btn-dark" type="button">View Cleaning Schedule</a>
           </div>
         </div>
       </div>
-
     </div>
-
 
   </section>
 
